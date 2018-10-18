@@ -11,7 +11,7 @@ components: TextField
 
 #### 注意
 
-We are currently falling back to **native input controls**. If you are interested in implementing or have implemented a rich Material Design Picker with an awesome UX, please, let us know on [#4787](https://github.com/mui-org/material-ui/issues/4787) and [#4796](https://github.com/mui-org/material-ui/issues/4796)! We could add a link to or a demo of your project in the documentation. Here are some components that are **promising**: - [material-ui-pickers](https://github.com/dmtrKovalenko/material-ui-pickers): date pickers and time pickers. - [material-ui-time-picker](https://github.com/TeamWertarbyte/material-ui-time-picker): time pickers. - [material-ui-next-pickers](https://github.com/chingyawhao/material-ui-next-pickers): date pickers and time pickers.
+我们最近正回退到**原生输入控件**。 If you are interested in implementing or have implemented a rich Material Design Picker with an awesome UX, please, let us know on [#4787](https://github.com/mui-org/material-ui/issues/4787) and [#4796](https://github.com/mui-org/material-ui/issues/4796)! We could add a link to or a demo of your project in the documentation. Here are some components that are **promising**: - [material-ui-pickers](https://github.com/dmtrKovalenko/material-ui-pickers): date pickers and time pickers. - [material-ui-time-picker](https://github.com/TeamWertarbyte/material-ui-time-picker): time pickers. - [material-ui-next-pickers](https://github.com/chingyawhao/material-ui-next-pickers): date pickers and time pickers.
 
 ⚠️ Native input controls support by browsers [isn't perfect](https://caniuse.com/#feat=input-datetime).
 
@@ -21,9 +21,9 @@ We are currently falling back to **native input controls**. If you are intereste
 
 {{"demo": "pages/demos/pickers/DatePickers.js"}}
 
-## Time pickers
+## 时间选择器
 
-A native time picker example with `type="time"`:
+一个原生时间选择器示例 `type="time"`：
 
 {{"demo": "pages/demos/pickers/TimePickers.js"}}
 
