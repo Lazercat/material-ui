@@ -2,12 +2,12 @@
 title: Date Picker, Time Picker React component
 components: TextField
 ---
-# Pickers
+# 选择器
 
-<p class="description">Pickers provide a simple way to select a single value from a pre-determined set.</p>
+<p class="description">选择器提供了一种从预先设定的集合中选取单个值的简单方法。</p>
 
-- 在移动中, 拾取器最适合在确认对话框中显示。
-- 对于内联显示 (如在窗体上), 请考虑使用压缩控件 (如分段下拉按钮)。
+- 在移动端，选择器最适合在确认对话框中展示。
+- 对于内联显示（如在一个表单中），请考虑使用紧凑型控件，如分段下拉按钮。
 
 #### 注意
 
@@ -15,9 +15,9 @@ We are currently falling back to **native input controls**. If you are intereste
 
 ⚠️ Native input controls support by browsers [isn't perfect](https://caniuse.com/#feat=input-datetime).
 
-## Date pickers
+## 日期选择器
 
-一个原生日期选择器示例`type="date"`，它也可以用作日历：
+一个原生日期选择器示例 `type="date"`，它也可以用作日历：
 
 {{"demo": "pages/demos/pickers/DatePickers.js"}}
 
