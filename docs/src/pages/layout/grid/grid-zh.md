@@ -1,5 +1,5 @@
 ---
-title: Grid React component
+title: 网格
 components: Grid
 ---
 # Grid
