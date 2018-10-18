@@ -25,7 +25,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 ### 备选方案
 
-描边按钮也可以用来作为比实心按钮次要一点按钮方案， 或者用来作为比文本按钮重要一点的按钮方案。
+描边按钮也可以用来作为比实心按钮次要一点的按钮方案， 或者用来作为比文本按钮重要一点的按钮方案。
 
 {{"demo": "pages/demos/buttons/OutlinedButtons.js"}}
 
@@ -77,7 +77,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 ## 自定义按钮
 
-如果您有阅读[“重写”文档](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是一些示例，包括使用classes属性更改Button的主要颜色， 直接使用主题和使用Bootstrap样式按钮。
+如果您有阅读[“重写”文档](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是一些示例，包括使用 classes 属性更改 Button 的主要颜色、 使用主题和使用 Bootstrap 样式按钮。
 
 {{"demo": "pages/demos/buttons/CustomizedButtons.js"}}
 
