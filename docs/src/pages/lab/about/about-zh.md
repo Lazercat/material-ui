@@ -10,7 +10,7 @@
 npm install @material-ui/lab
 ```
 
-If you are not already using Material-UI in your project, you can add it with:
+如果你尚未在你的项目中使用Material-UI, 你可以按如下方式安装:
 
 ```sh
 // with npm
