@@ -30,7 +30,7 @@ components: Tooltip
 
 {{"demo": "pages/demos/tooltips/TriggersTooltips.js"}}
 
-## Transitions
+## 过渡动画
 
 使用不同的转换。
 
