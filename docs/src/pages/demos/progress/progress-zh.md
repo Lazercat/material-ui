@@ -1,5 +1,5 @@
 ---
-title: 环形进度、线状进度React组件
+title: 环形、线装进度 React 组件
 components: CircularProgress, LinearProgress
 ---
 # 进度
@@ -16,7 +16,7 @@ components: CircularProgress, LinearProgress
 
 当显示一系列过程的进度时，表示全部的过程而不是每个单独活动的进度。
 
-## 环形的
+## 环形
 
 [圆形进度指示器](https://material.io/design/components/progress-indicators.html#circular-progress-indicators)支持确定过程和不确定过程。
 
@@ -61,16 +61,16 @@ components: CircularProgress, LinearProgress
 
 ## 非标准范围
 
-进度组件接受一个0 - 100范围的值。 作为默认的最小 / 最大值，这简化了屏幕阅读用户的使用。 但是有时，你可能会使用值超出这个范围的数据源。 这里告诉您如何轻松的将一个任意范围的值转换为0 - 100区间的值。
+进度组件接受一个 0 - 100 范围的值。 作为默认的最小/最大值，这简化了屏幕阅读用户的使用。 但是有时，你可能会使用值超出这个范围的数据源。 这里告诉您如何轻松的将一个任意范围的值转换为0 - 100区间的值。
 
 ```jsx
 // MIN = 最小值
 // MAX = 最大值
 
 // 正常化值的函数（MIN / MAX 可相互协调）
-const normalise = value = (value - MIN) * 100 / (MAX - MIN);
+const normalise = value => (value - MIN) * 100 / (MAX - MIN);
 
-// 在render函数中，利用`正常化`函数的示例组件
+// 在 render 函数中，利用`正常化`函数的示例组件
 function Progress(props) {
   return (
     <React.Fragment>
