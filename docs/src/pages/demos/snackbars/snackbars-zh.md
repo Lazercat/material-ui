@@ -22,21 +22,21 @@ components: Snackbar, SnackbarContent
 
 ## 消息长度
 
-Some snackbars with varying message length.
+不同消息长度的消息条(Snackbar)。
 
 {{"demo": "pages/demos/snackbars/LongTextSnackbar.js"}}
 
-## Positioned
+## 定位消息条(Snackbar)
 
-There may be circumstances when the placement of the snackbar needs to be more flexible.
+在很多情况下消息条(Snackbar)的位置需要更灵活些。
 
 {{"demo": "pages/demos/snackbars/PositionedSnackbar.js"}}
 
-## Transitions
+## 过渡动画
 
-### Control Direction
+### 控制方向
 
-Change the direction of the transition. Slide is the default transition.
+控制过渡动画的方向。幻灯片效果是默认的过渡动画。
 
 {{"demo": "pages/demos/snackbars/DirectionSnackbar.js"}}
 
