@@ -6,7 +6,7 @@ components: Drawer, SwipeableDrawer
 
 <p class="description">导航抽屉可以访问您应用中的地址。侧栏是包含附加内容的平面，它固定在屏幕的左侧或右侧。</p>
 
-[Navigation drawers](https://material.io/design/components/navigation-drawer.html) 提供对目标和应用功能 如切换帐户 的访问。 它们可以是永久在屏幕上或由导航菜单图标控制。
+[Navigation drawers](https://material.io/design/components/navigation-drawer.html) 提供对目标和应用功能如「切换帐户」的访问。 它们可以是永久在屏幕上或由导航菜单图标控制。
 
 [Side sheets](https://material.io/design/components/sheets-side.html) 主要用于平板电脑和台式机的辅助平面。
 
@@ -26,7 +26,7 @@ components: Drawer, SwipeableDrawer
 
 {{"demo": "pages/demos/drawers/SwipeableTemporaryDrawer.js", "hideEditButton": true}}
 
-我们网站上的文档使用以下属性来获得组件的最佳可用性: -iOS 托管于高端设备上。 我们可以在不丢帧的情况下启用背景转换。 它的表现将十分优秀。 -iOS 有一个"滑动返回"的功能，它与组件冲突。 我们必须禁用它。
+我们网站上的文档使用以下属性来获得组件的最佳可用性: - iOS 托管于高端设备上。 我们可以在不丢帧的情况下启用背景转换。 它的表现将十分优秀。 - iOS 有一个"滑动返回"的功能，它与组件冲突。 我们必须禁用它。
 
 ```jsx
 const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
@@ -38,7 +38,7 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 永久抽屉始终可见并固定在左侧，与内容或背景位于同一高度。他们无法被关闭。
 
-永久抽屉是桌面</strong> 推荐的默认值**。</p> 
+永久抽屉是桌面**推荐的默认值**。
 
 ### 全高度导航栏
 
@@ -46,32 +46,33 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 {{"demo": "pages/demos/drawers/PermanentDrawer.js", "hideEditButton": true}}
 
-### Clipped under the app bar
+### 剪切在应用栏下
 
-Apps focused on productivity that require balance across the screen.
+应用专注于生产力，需要在整个屏幕上保持平衡。
 
 {{"demo": "pages/demos/drawers/ClippedDrawer.js", "hideEditButton": true}}
 
 ## 持久抽屉
 
-持久抽屉可以打开或关闭。 抽屉与内容位于同一表面的高度上。 它默认情况下是关闭的，可通过选择菜单图标打开，它会保持打开状态，直到用户关闭。 The state of the drawer is remembered from action to action and session to session.
+持久抽屉可以打开或关闭。 抽屉与内容位于同一表面的高度上。 它默认情况下是关闭的，可通过选择菜单图标打开，它会保持打开状态，直到用户关闭。 从操作到操作和会话到会话记住抽屉的状态。
 
-When the drawer is outside of the page grid and opens, the drawer forces other content to change size and adapt to the smaller viewport.
+当抽屉位于页面网格之外并打开时，抽屉会强制其他内容更改大小并适应较小的视口。
 
-Persistent navigation drawers are acceptable for all sizes larger than mobile. They are not recommended for apps with multiple levels of hierarchy that require using an up arrow for navigation.
+对于比移动设备更大的尺寸，可以使用持久性导航抽屉。 对于具有多级层次结构且需要使用向上箭头进行导航的应用，建议不要使用它们。
 
 {{"demo": "pages/demos/drawers/PersistentDrawer.js", "hideEditButton": true}}
 
-## Mini variant drawer
+## 迷你变体抽屉
 
-In this variation, the persistent navigation drawer changes its width. Its resting state is as a mini-drawer at the same elevation as the content, clipped by the app bar. When expanded, it appears as the standard persistent navigation drawer.
+在此变体中，持久性导航抽屉会更改其宽度。 它的静止状态是一个迷你抽屉，与内容相同，由应用栏夹住。 展开后，它将显示为标准持久性导航抽屉。
 
-The mini variant is recommended for apps sections that need quick selection access alongside content.
+对于需要快速选择访问内容的应用部分，建议使用迷你变体。
 
 {{"demo": "pages/demos/drawers/MiniDrawer.js", "hideEditButton": true}}
 
-## Responsive drawer
+## 响应抽屉
 
-The `Hidden` responsive helper component allows showing different types of drawer depending on the screen width. A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
+ Hidden </ code>响应式帮助程序组件允许根据屏幕宽度显示不同类型的抽屉。
+显示小屏幕的<code> temporary </ code>抽屉，而更宽屏幕显示<code> permanent </ code>抽屉。</p>
 
-{{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "hideEditButton": true}}
+<p>{{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "hideEditButton": true}}</p>
