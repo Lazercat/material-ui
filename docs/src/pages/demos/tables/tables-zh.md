@@ -46,6 +46,6 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 {{"demo": "pages/demos/tables/CustomizedTable.js"}}
 
-## Advanced use cases
+## 高级用例
 
-对于更高级的情况，您也许可以利用: - [ dx-react-grid-material-ui ](https://devexpress.github.io/devextreme-reactive/react/grid/) 添加 Material-UI 的数据表格,具有分页，排序功能,过滤,分组和编辑功能([自定义许可](https://js.devexpress.com/licensing/))。 - [mui-datatables](https://github.com/gregnb/mui-datatables) Material-UI 的响应式数据表格,包括过滤,排序,搜索等功能. - [material-table](https://github.com/mbrn/material-table) DataTable 基于 Table 组件, 具有搜索,过滤,排序等附加功能。
+对于更高级的情况，您也许可以利用: - [ dx-react-grid-material-ui ](https://devexpress.github.io/devextreme-reactive/react/grid/) 添加 Material-UI 的数据表格,具有分页，排序功能,过滤,分组和编辑功能([自定义许可](https://js.devexpress.com/licensing/))。 - [mui-datatables](https://github.com/gregnb/mui-datatables) Material-UI 的响应式数据表格,包括过滤,排序,搜索等功能. - [material-table](https://github.com/mbrn/material-table) DataTable 基于 Table 组件, 具有搜索,过滤,排序等附加功能。 - [mui-virtualized-table](https://github.com/techniq/mui-virtualized-table) Virtualized Material-UI table.
