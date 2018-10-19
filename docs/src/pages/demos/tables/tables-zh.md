@@ -1,5 +1,5 @@
 ---
-title: Table React component
+title: React 选项卡组件
 components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination, TableRow, TableSortLabel
 ---
 # 表格
@@ -8,7 +8,7 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 [数据表格](https://material.io/design/components/data-tables.html)以一种一目了然地方式显示信息，这便于用户发现某些模式和要义。 表格可以被内嵌在主要内容中，如卡片。
 
-数据表可以包括: -对应的数据可视化展现 -导航 -用于查询和操作数据的工具
+数据表可以包括: - 对应的数据可视化展现 - 导航 - 用于查询和操作数据的工具
 
 在包含工具时, 应将它们直接放在表格的上方或下方。
 
@@ -26,9 +26,9 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 {{"demo": "pages/demos/tables/SimpleTable.js"}}
 
-## 排序&筛选
+## 排序和筛选
 
-此示例演示了 `复选框` 和单击选择行的用法, 该表格具有自定义的 `Toolbar`。 该示例使用 `TableSortLabel` 组件来辅助实现列标题的样式效果。
+此示例演示了 `Checkbox ` 和单击选择行的用法, 该表格具有自定义的 `Toolbar`。 该示例使用 `TableSortLabel` 组件来辅助实现列标题的样式效果。
 
 此表已给定了固定宽度以演示水平滚动. 为了防止分页控件滚动, TablePagination组件在Table外部使用. (下面的[自定义表分页操作示例](#custom-table-pagination-action)显示了TableFooter中的分页.)
 
