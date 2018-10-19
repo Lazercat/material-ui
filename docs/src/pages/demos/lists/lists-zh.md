@@ -42,22 +42,22 @@ components: Collapse, Divider, List, ListItem, ListItemAvatar, ListItemIcon, Lis
 
 复选框可以是主操作或辅助操作。
 
-The checkbox is the primary action and the state indicator for the list item. The comment button is a secondary action and a separate target.
+该复选框是列表项的主要操作和状态指示器。 注释按钮是辅助操作和单独的目标。
 
 {{"demo": "pages/demos/lists/CheckboxList.js"}}
 
-The checkbox is the secondary action for the list item and a separate target.
+该复选框是列表项的辅助操作和单独的目标。
 
 {{"demo": "pages/demos/lists/CheckboxListSecondary.js"}}
 
-### Switch
+### 开关
 
-The switch is the secondary action and a separate target.
+该开关是辅助操作和单独的目标。
 
 {{"demo": "pages/demos/lists/SwitchListSecondary.js"}}
 
-## Interactive
+## 交互式
 
-Below is an interactive demo that lets you explore the visual results of the different settings:
+下面是一个交互式演示，可让您探索不同设置的可视结果：
 
 {{"demo": "pages/demos/lists/InteractiveList.js"}}
