@@ -1,5 +1,5 @@
 ---
-title: Text Field React component
+title: 文本框 React 组件
 components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, InputBase, InputLabel, OutlinedInput, TextField
 ---
 # Text Fields
@@ -82,7 +82,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 输入标签 "shrink" 状态并不总是正确的。 输入标签应在输入显示内容时立即收缩。 在某些情况下, 我们无法确定 "shrink" 状态 (数字输入、日期时间输入、条带输入)。 您可能会注意到重叠。
 
-![shrink](/static/images/text-fields/shrink.png)
+![缩小](/static/images/text-fields/shrink.png)
 
 若要解决此问题, 您可以强制标签的 "shrink" 状态。
 
