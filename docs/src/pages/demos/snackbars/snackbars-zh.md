@@ -54,16 +54,16 @@ components: Snackbar, SnackbarContent
 
 ### 连续的消息条(Snackbar)
 
-Per [Google's guidelines](https://material.io/design/components/snackbars.html#snackbars-toasts-usage), when a second snackbar is triggered while the first is displayed, the first should start the contraction motion downwards before the second one animates upwards.
+按照[Google的指引](https://material.io/design/components/snackbars.html#snackbars-toasts-usage),当第一个消息条(Snackbar)还在显示时如果第二条消息条(Snackbar)被触发的话, 第一条消息条(Snackbar)应该在第二条消息条(Snackbar)开始上浮出现时往下方收缩消失.
 
 {{"demo": "pages/demos/snackbars/ConsecutiveSnackbars.js"}}
 
 ## 自定义的消息条(Snackbar)
 
-If you have been reading the [overrides documentation page](/customization/overrides/) but you are not confident jumping in, here are examples of how you can change the look of a Snackbar.
+如果您有阅读[重写样式文档页面](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是如何更改一个消息条(Snackbar)的主要颜色的示例
 
 {{"demo": "pages/demos/snackbars/CustomizedSnackbars.js"}}
 
-## Advanced use cases
+## 高级用例
 
-For more advanced use cases you might be able to take advantage of: - [notistack](https://github.com/iamhosseindhv/notistack) Highly customisable notification snackbars that can be stacked on top of each other
+如果需要有更高级的用法可以考虑使用: - [notistack](https://github.com/iamhosseindhv/notistack) 一个可以一个个重叠显示的高度自定义的消息条(Snackbar)组件。
