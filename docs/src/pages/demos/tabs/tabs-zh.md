@@ -69,14 +69,15 @@ components: Tabs, Tab
 
 {{"demo": "pages/demos/tabs/IconTabs.js"}} {{"demo": "pages/demos/tabs/IconLabelTabs.js"}}
 
-## Nav Tabs
+## 导航选项卡
 
-By default tabs use a `button` element, but you can provide your own custom tag or component. Here's an example of implementing tabbed navigation:
+默认情况下，选项卡使用 button </ code>元素，但您可以提供自己的自定义标记或组件。 以下是实现选项卡式导航的示例：</p>
 
-{{"demo": "pages/demos/tabs/NavTabs.js"}}
+<p>{{"demo": "pages/demos/tabs/NavTabs.js"}}</p>
 
-## Customized Tabs
+<h2>定制选项卡</h2>
 
-If you have read the [overrides documentation page](/customization/overrides/) but aren't confident jumping in, here's an example of how you can change the main color of the Tabs. The following demo matches the [Ant Design UI](https://ant.design/components/tabs/).
+<p>如果您已阅读<a href="/customization/overrides/">覆盖文档页面</a>
+但是不自信地跳进来，这里是一个如何改变 Tabs 主色的例子。 以下演示与<a href="https://ant.design/components/tabs/"> Ant Design UI </a>相匹配</p>
 
-{{"demo": "pages/demos/tabs/CustomizedTabs.js"}}
+<p>{{"demo": "pages/demos/tabs/CustomizedTabs.js"}}</p>
