@@ -42,17 +42,17 @@ components: Snackbar, SnackbarContent
 
 ### 更改过渡动画
 
-Use a different transition all together.
+同时使用不同的过渡动画。
 
 {{"demo": "pages/demos/snackbars/FadeSnackbar.js"}}
 
-### Don't block the floating action button
+### 不要遮住其他浮动的操作按钮。
 
-Move the floating action button vertically to accommodate the snackbar height.
+当出现消息条(Snackbar)时底部的浮动按钮自动上升一个消息条高度。
 
 {{"demo": "pages/demos/snackbars/FabIntegrationSnackbar.js"}}
 
-### Consecutive Snackbars
+### 连续的消息条(Snackbar)
 
 Per [Google's guidelines](https://material.io/design/components/snackbars.html#snackbars-toasts-usage), when a second snackbar is triggered while the first is displayed, the first should start the contraction motion downwards before the second one animates upwards.
 
