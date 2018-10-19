@@ -4,7 +4,7 @@ components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 ---
 # 菜单
 
-<p class="description">菜单通过一个临时出现的界面来显示选项列表。</p>
+<p class="description">菜单显示在临时出现的所点击位置上的选项列表。</p>
 
 [菜单](https://material.io/design/components/menus.html)通过一个临时出现的界面来显示选项列表。通常当用户与按钮，操作或其他控件交互时出现。
 
@@ -32,7 +32,7 @@ components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 
 {{"demo": "pages/demos/menus/LongMenu.js"}}
 
-## MenuList composition
+## MenuList 组件
 
 `Menu`组件内部使用`Popver`组件 但是，您可能想药使用不同的定位策略，或者你不想禁止滚动。 为了满足这些需求，我们公开了一个`MenuList`组件，让你可以像下面例子中这样组合`Popper`来编写自己的菜单组件。
 
