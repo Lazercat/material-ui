@@ -58,7 +58,7 @@ Per [Google's guidelines](https://material.io/design/components/snackbars.html#s
 
 {{"demo": "pages/demos/snackbars/ConsecutiveSnackbars.js"}}
 
-## Customized Snackbars
+## 自定义的消息条(Snackbar)
 
 If you have been reading the [overrides documentation page](/customization/overrides/) but you are not confident jumping in, here are examples of how you can change the look of a Snackbar.
 
