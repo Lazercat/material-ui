@@ -1,12 +1,12 @@
 ---
-title: Expansion Panel React component
+title: 扩展面板 React 组件
 components: ExpansionPanel, ExpansionPanelActions, ExpansionPanelDetails, ExpansionPanelSummary
 ---
-# Expansion Panel
+# 拓展面板
 
-<p class="description">Expansion panels contain creation flows and allow lightweight editing of an element.</p>
+<p class="description">扩展面板包含创建流程，允许轻量编辑元素。</p>
 
-[An expansion panel](https://material.io/archive/guidelines/components/expansion-panels.html) is a lightweight container that may either stand alone or be connected to a larger surface, such as a card.
+[扩展面板](https://material.io/archive/guidelines/components/expansion-panels.html)是一个轻量级容器，既可以单独使用，也可以连接到更大的表面， 比如卡片。
 
 ## Simple Expansion Panel
 
