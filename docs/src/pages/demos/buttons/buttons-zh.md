@@ -73,7 +73,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 有时您可能希望为某个按钮添加图标以增强应用程序的用户体验，因为我们识别徽标比纯文本更容易。 例如，如果您有删除按钮，则可以使用垃圾箱图标对其进行标记。
 
-{{"演示": "pages/demos/buttons/IconLabelButtons.js"}}
+{{"demo": "pages/demos/buttons/IconLabelButtons.js"}}
 
 ## 自定义按钮
 
