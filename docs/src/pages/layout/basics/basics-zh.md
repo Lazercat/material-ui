@@ -1,4 +1,4 @@
-# 基础布局
+# 基础
 
 <p class="description">Material Design布局鼓励通过统一的元素和间隔来实现跨平台、环境、屏幕尺寸的一致性。</p>
 
@@ -25,4 +25,4 @@ Material Design中的[响应式布局](https://material.io/design/layout/respons
 - snackbar：1400
 - tooltip（提示）：1500
 
-这些值可以自定义。 你可在theme（主题）的[`zindex`](/customization/default-theme/?expend-path=$.zIndex)键中找到它们。 我们不建议自定义不同的值，如果你修改了其中一项，你很可能需要修改全部。
+这些值可以自定义。 你可在theme（主题）的[`zIndex`](/customization/default-theme/?expend-path=$.zIndex)键中找到它们。 我们不建议自定义不同的值，如果你修改了其中一项，你很可能需要修改全部。
