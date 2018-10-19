@@ -2,7 +2,7 @@
 title: Transition React component
 components: Collapse, Fade, Grow, Slide, Zoom
 ---
-# Transitions
+# 过渡动画
 
 <p class="description">过渡有助于使UI富有表现力且易于使用。</p>
 
