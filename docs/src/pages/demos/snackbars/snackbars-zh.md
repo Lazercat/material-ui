@@ -1,26 +1,26 @@
 ---
-title: Snackbar React component
+title: React 消息条(Snackbar) 组件
 components: Snackbar, SnackbarContent
 ---
-# Snackbars
+# 消息条(Snackbar)
 
-<p class="description">Snackbars provide brief messages about app processes through a message - typically at the bottom of the screen</p>
+<p class="description">消息条(Snackbar)通过一条消息来提供有关应用进程的简短信息-通常在屏幕底部</p>
 
-[Snackbars](https://material.io/design/components/snackbars.html) inform users of a process that an app has performed or will perform. They appear temporarily, towards the bottom of the screen. They shouldn’t interrupt the user experience, and they don’t require user input to disappear.
+[消息条(Snackbar)](https://material.io/design/components/snackbars.html) 通知用户应用程序已执行或将执行的进程。 它们会从屏幕底部短暂出现。 它们不应中断用户体验, 也不要求用户的操作来关闭。
 
-Snackbars contain a single line of text directly related to the operation performed. They may contain a text action, but no icons. You can use them to display notifications.
+消息条(Snackbar)包含与执行的操作直接相关的单行文本。 它们可能包含文本操作, 但没有图标。您可以使用它们来显示通知。
 
-#### Frequency
+#### 频率
 
-Only one snackbar may be displayed at a time.
+一次只能显示一个消息条(Snackbar)。
 
-## Simple
+## 基本消息条（Snackbar)
 
-A basic snackbar that aims to reproduce Google Keep's snackbar behavior.
+一个旨在重现Google Keep消息条行为的基本消息条(Snackbar)。
 
 {{"demo": "pages/demos/snackbars/SimpleSnackbar.js"}}
 
-## Message Length
+## 消息长度
 
 Some snackbars with varying message length.
 
