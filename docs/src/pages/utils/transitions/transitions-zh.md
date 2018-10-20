@@ -32,13 +32,13 @@ export default Main() {
 
 ## 折叠
 
-Expand vertically from the top of the child element. The `collapsedHeight` property can be used to set the minimum height when not expanded.
+从子元素的顶部垂直展开。 `collapsedHeight` 属性可用于设置未展开时的最小高度。
 
 {{"demo": "pages/utils/transitions/SimpleCollapse.js"}}
 
-## Fade
+## 淡入
 
-Fade in from transparent to opaque.
+从透明淡入至不透明
 
 {{"demo": "pages/utils/transitions/SimpleFade.js"}}
 
