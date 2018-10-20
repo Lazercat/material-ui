@@ -67,7 +67,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 喜欢更大或更小的按钮？ 使用 `size` 或 `mini` 属性。
 
-{{"演示": "pages/demos/buttons/ButtonSizes.js"}}
+{{"demo": "pages/demos/buttons/ButtonSizes.js"}}
 
 ### 带有图标和标签的按钮
 
