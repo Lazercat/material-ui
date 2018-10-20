@@ -95,7 +95,7 @@ const theme = createMuiTheme({
 - [create-mui-theme](https://react-theming.github.io/create-mui-theme/) Is an online tool for creating Material-UI themes via Material Design Color Tool.
 - [material-ui-theme-editor](https://in-your-saas.github.io/material-ui-theme-editor/) A tool to generate themes for your Material-UI applications by just selecting the colors and having a live preview.
 
-## Color palette
+## 调色板
 
 This color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. 他们被设计成彼此和谐地工作.
 
