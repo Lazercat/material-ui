@@ -16,7 +16,7 @@ components: Drawer, SwipeableDrawer
 
 单击或者按Esc键可以关闭抽屉。当选择抽屉中的一项时，它也会关闭，通过操作 `open` prop来处理。
 
-{{"demo": "pages/demos/drawers/TemporaryDrawer.js", "hideEditButton": true}}
+{{"demo": "pages/demos/drawers/TemporaryDrawer.js"}}
 
 ## 可滑动的临时抽屉
 
@@ -24,7 +24,7 @@ components: Drawer, SwipeableDrawer
 
 此组件附带 2 kB gzip 的负载开销。 一些低端移动设备无法以 60 FPS 的速度跟随手指。 您可以使用 `disableBackdropTransition` 属性来提供帮助。
 
-{{"demo": "pages/demos/drawers/SwipeableTemporaryDrawer.js", "hideEditButton": true}}
+{{"demo": "pages/demos/drawers/SwipeableTemporaryDrawer.js"}}
 
 我们网站上的文档使用以下属性来获得组件的最佳可用性: - iOS 托管于高端设备上。 我们可以在不丢帧的情况下启用背景转换。 它的表现将十分优秀。 - iOS 有一个"滑动返回"的功能，它与组件冲突。 我们必须禁用它。
 
@@ -34,45 +34,48 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 <SwipeableDrawer disableBackdropTransition={!iOS} disableDiscovery={iOS} />
 ```
 
-## 永久抽屉
+## Responsive drawer
 
-永久抽屉始终可见并固定在左侧，与内容或背景位于同一高度。他们无法被关闭。
+The `Hidden` responsive helper component allows showing different types of drawer depending on the screen width. A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
 
-永久抽屉是桌面**推荐的默认值**。
+{{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "iframe": true}}
+
+## Permanent drawer
+
+Permanent navigation drawers are always visible and pinned to the left edge, at the same elevation as the content or background. They cannot be closed.
+
+Permanent navigation drawers are the **recommended default for desktop**.
 
 ### 全高度导航栏
 
-应用程序侧重与从左到右层次结构的信息消费。
+Apps focused on information consumption that use a left-to-right hierarchy.
 
-{{"demo": "pages/demos/drawers/PermanentDrawer.js", "hideEditButton": true}}
+{{"demo": "pages/demos/drawers/PermanentDrawerLeft.js", "iframe": true}}
+
+{{"demo": "pages/demos/drawers/PermanentDrawerRight.js", "iframe": true}}
 
 ### 剪切在应用栏下
 
-应用专注于生产力，需要在整个屏幕上保持平衡。
+Apps focused on productivity that require balance across the screen.
 
-{{"demo": "pages/demos/drawers/ClippedDrawer.js", "hideEditButton": true}}
+{{"demo": "pages/demos/drawers/ClippedDrawer.js", "iframe": true}}
 
-## 持久抽屉
+## Persistent drawer
 
-持久抽屉可以打开或关闭。 抽屉与内容位于同一表面的高度上。 它默认情况下是关闭的，可通过选择菜单图标打开，它会保持打开状态，直到用户关闭。 从操作到操作和会话到会话记住抽屉的状态。
+Persistent navigation drawers can toggle open or closed. The drawer sits on the same surface elevation as the content. It is closed by default and opens by selecting the menu icon, and stays open until closed by the user. The state of the drawer is remembered from action to action and session to session.
 
-当抽屉位于页面网格之外并打开时，抽屉会强制其他内容更改大小并适应较小的视口。
+When the drawer is outside of the page grid and opens, the drawer forces other content to change size and adapt to the smaller viewport.
 
-对于比移动设备更大的尺寸，可以使用持久性导航抽屉。 对于具有多级层次结构且需要使用向上箭头进行导航的应用，建议不要使用它们。
+Persistent navigation drawers are acceptable for all sizes larger than mobile. They are not recommended for apps with multiple levels of hierarchy that require using an up arrow for navigation.
 
-{{"demo": "pages/demos/drawers/PersistentDrawer.js", "hideEditButton": true}}
+{{"demo": "pages/demos/drawers/PersistentDrawerLeft.js", "iframe": true}}
 
-## 迷你变体抽屉
+{{"demo": "pages/demos/drawers/PersistentDrawerRight.js", "iframe": true}}
 
-在此变体中，持久性导航抽屉会更改其宽度。 它的静止状态是一个迷你抽屉，与内容相同，由应用栏夹住。 展开后，它将显示为标准持久性导航抽屉。
+## Mini variant drawer
 
-对于需要快速选择访问内容的应用部分，建议使用迷你变体。
+In this variation, the persistent navigation drawer changes its width. Its resting state is as a mini-drawer at the same elevation as the content, clipped by the app bar. When expanded, it appears as the standard persistent navigation drawer.
 
-{{"demo": "pages/demos/drawers/MiniDrawer.js", "hideEditButton": true}}
+The mini variant is recommended for apps sections that need quick selection access alongside content.
 
-## 响应抽屉
-
- Hidden </ code>响应式帮助程序组件允许根据屏幕宽度显示不同类型的抽屉。
-显示小屏幕的<code> temporary </ code>抽屉，而更宽屏幕显示<code> permanent </ code>抽屉。</p>
-
-<p>{{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "hideEditButton": true}}</p>
+{{"demo": "pages/demos/drawers/MiniDrawer.js", "iframe": true}}
