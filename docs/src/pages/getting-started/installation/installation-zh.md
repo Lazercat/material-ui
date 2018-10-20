@@ -14,7 +14,7 @@ npm install @material-ui/core
 
 请注意 [react](https://www.npmjs.com/package/react) >= 16.3.0和[react-dom](https://www.npmjs.com/package/react-dom) >= 16.3.0 是对等依赖
 
-## Roboto Font
+## Roboto 字体
 
 Material-UI的设计考虑了 [Roboto](https://fonts.google.com/specimen/Roboto)字体 因此, 请务必遵循这些说明. 例如，通过Google Web Fonts:
 
@@ -22,7 +22,7 @@ Material-UI的设计考虑了 [Roboto](https://fonts.google.com/specimen/Roboto)
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 ```
 
-## Font Icons
+## 字体图标
 
 为了使用字体`Icon` 组件, 你必须添加[Material icons](https://material.io/tools/icons/)字体. 这是如何去做的 [一些说明](/style/icons/#font-icons) 例如，通过Google Web Fonts:
 
@@ -30,7 +30,7 @@ Material-UI的设计考虑了 [Roboto](https://fonts.google.com/specimen/Roboto)
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 ```
 
-## SVG Icons
+## SVG 图标
 
 为了使用预构建的SVG Material icons，例如在[组件演示](/demos/app-bar/)中找到的那些, 你必须先安装 [@material-ui/icons](https://www.npmjs.com/package@material-ui/icons)包
 
