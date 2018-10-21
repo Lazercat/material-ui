@@ -34,9 +34,9 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 <SwipeableDrawer disableBackdropTransition={!iOS} disableDiscovery={iOS} />
 ```
 
-## Responsive drawer
+## 响应式抽屉
 
-The `Hidden` responsive helper component allows showing different types of drawer depending on the screen width. A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
+利用` Hidden `组件，可以根据屏幕宽度显示不同类型的抽屉。 A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
 
 {{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "iframe": true}}
 
