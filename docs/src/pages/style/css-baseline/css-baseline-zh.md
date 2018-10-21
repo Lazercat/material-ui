@@ -31,9 +31,9 @@ export default MyApp;
 
 ### 布局
 
-- `box-sizing` is set globally on the `<html>` element to `border-box`. Every element—including `*::before` and `*::after` are declared to inherit this property, which ensures that the declared width of the element is never exceeded due to padding or border.
+- `box-sizing` 在 `<html>` 元素上全局设置为 `border-box`。 每个元素 包括 `*:: before` 和 `*:: after` 被声明去继承这个属性，它确保元素的声明宽度永远不会超过padding或者border。
 
 ### Typography
 
-- Font antialiasing is enabled for better display of the Roboto font.
+- 字体抗锯齿功能可以更好地显示Roboto字体
 - No base font-size is declared on the `<html>`, but 16px is assumed (the browser default). You can learn more about the implications of changing the `<html>` default font size in [the theme documentation](/customization/themes/#typography-html-font-size) page.
