@@ -36,4 +36,4 @@ export default MyApp;
 ### Typography
 
 - 字体抗锯齿功能可以更好地显示Roboto字体
-- No base font-size is declared on the `<html>`, but 16px is assumed (the browser default). You can learn more about the implications of changing the `<html>` default font size in [the theme documentation](/customization/themes/#typography-html-font-size) page.
+- 没有声明基础font-size在`<html>`上，但是假定是16px (浏览器的默认设置)。 您可以了解更多有关更改 `<html>` 默认字体大小的含义 [主题文档](/customization/themes/#typography-html-font-size) 页。
