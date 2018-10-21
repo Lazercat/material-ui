@@ -36,7 +36,7 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 ## 响应式抽屉
 
-利用` Hidden `组件，可以根据屏幕宽度显示不同类型的抽屉。 A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
+利用` Hidden `组件，可以根据屏幕宽度显示不同类型的抽屉。 小屏幕显示 `temporary` 抽屉，较宽的屏幕显示 `permanent` 抽屉。
 
 {{"demo": "pages/demos/drawers/ResponsiveDrawer.js", "iframe": true}}
 
