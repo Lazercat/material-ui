@@ -27,7 +27,7 @@ export default MyApp;
 
 ### 页面
 
-The `<html>` and `<body>` elements are updated to provide better page-wide defaults. More specifically: - The margin in all browsers is removed. - The default Material Design background color is applied. It's using [`theme.palette.background.default`](/customization/default-theme/?expend-path=$.palette.background) for standard devices and a white background for print devices.
+`<html>` 和 `<body>` 元素将更新以提供更好的页面范围的默认设置。 更具体地说: -删除所有浏览器中的边距。 -默认使用Material Design的背景颜色。 它使用 [`theme.palette.background.default`](/customization/default-theme/?expend-path=$.palette.background) 在标准设备上而在打印设备上使用白色背景。
 
 ### 布局
 
