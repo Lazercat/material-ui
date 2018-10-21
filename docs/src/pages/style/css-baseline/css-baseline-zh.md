@@ -1,11 +1,11 @@
 ---
 components: CssBaseline
 ---
-# CSS Baseline
+# CSS 基线
 
-<p class="description">Material-UI provides a CssBaseline component to kickstart an elegant, consistent, and simple baseline to build upon.</p>
+<p class="description">Material-UI 提供了一个 CssBaseline 组件, 用于启动一个优雅、一致且简单的基线。</p>
 
-You might be familiar with [normalize.css](https://github.com/necolas/normalize.css), a collection of HTML element and attribute style-normalizations.
+您可能熟悉 [normailize.css](https://github.com/necolas/normalize.css), 一个HTML 元素和属性样式规范化的集合。
 
 ```jsx
 import React from 'react';
@@ -23,9 +23,9 @@ function MyApp() {
 export default MyApp;
 ```
 
-## Approach
+## 方法
 
-### Page
+### 页面
 
 The `<html>` and `<body>` elements are updated to provide better page-wide defaults. More specifically: - The margin in all browsers is removed. - The default Material Design background color is applied. It's using [`theme.palette.background.default`](/customization/default-theme/?expend-path=$.palette.background) for standard devices and a white background for print devices.
 
